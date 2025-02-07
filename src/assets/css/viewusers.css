@@ -1,0 +1,64 @@
+/* src/assets/css/viewusers.css */
+
+.view-users {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.view-users h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #013263;
+}
+
+.view-users table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.view-users table th,
+.view-users table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.view-users table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.view-users table td img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.view-users table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.view-users table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.unblock-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.1s ease-in-out;
+}
+
+.unblock-button:hover {
+  background-color: #ff1a1a;
+}

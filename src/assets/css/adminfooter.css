@@ -1,0 +1,16 @@
+/* src/assets/css/AdminFooter.css */
+
+.admin-footer {
+  background: linear-gradient(to right, #013263 0%, #00021d 20%);
+  color: white;
+  text-align: center;
+  padding: 3px 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.admin-footer p {
+  font-weight: 600;
+  font-size: 15px;
+}

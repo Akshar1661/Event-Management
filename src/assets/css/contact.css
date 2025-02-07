@@ -1,0 +1,149 @@
+.contact-body {
+  background: linear-gradient(to right, #013263 0%, #00021d 20%);
+}
+
+.spacer {
+  width: 100%;
+  height: 10vh;
+  background: linear-gradient(to right, #013263 0%, #00021d 20%);
+}
+
+.top-sec-breadcrumb {
+  background-image: url("../images/breadcrumb/0.breadcrumb-bg.jpg");
+  background-size: cover;
+  padding: 5%;
+  text-align: center;
+}
+
+.top-sec-breadcrumb div:first-child {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 1.4rem;
+}
+
+.top-sec-breadcrumb div:nth-child(2) {
+  color: orange;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.top-sec-breadcrumb span {
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.top-sec-breadcrumb div:last-child {
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .top-sec-breadcrumb div:first-child {
+    font-size: 10px;
+  }
+
+  .top-sec-breadcrumb div:nth-child(2) {
+    font-size: 20px;
+  }
+  .top-sec-breadcrumb span {
+    font-size: 20px;
+  }
+  .top-sec-breadcrumb div:last-child {
+    font-size: 10px;
+  }
+}
+
+.top-box {
+  height: 5px;
+  width: 50px;
+  background: linear-gradient(to right, rgb(255, 174, 0), yellow);
+  border-radius: 5px;
+}
+
+.contact-form-body {
+  background-image: url(./../images/blog01.png);
+  width: 100%;
+  background-size: cover;
+  background-color: #00021d;
+  margin-block: 10vh;
+}
+
+.contact-form img {
+  background-color: darkmagenta;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.contact-form {
+  width: 40%;
+  background-color: white;
+  margin-left: 60%;
+  padding: 20px 30px;
+  text-align: center;
+  padding-block: 10%;
+}
+
+.contact-form h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  width: 80%;
+  margin-block: 10px;
+  padding: 5px;
+}
+
+.contact-form button {
+  width: 80%;
+  margin-block: 25px;
+  padding: 5px;
+  background-color: #013263;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.location p {
+  color: tomato;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-block: 3%;
+  text-transform: capitalize;
+}
+
+.location iframe {
+  width: 100%;
+  border: 5px solid #00021d;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-form {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-form input {
+    width: 90%;
+  }
+  .contact-form {
+    width: 90%;
+    margin: auto;
+  }
+
+  .contact-form-body {
+    margin-block: 5vh;
+  }
+}

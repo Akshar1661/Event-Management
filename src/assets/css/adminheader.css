@@ -1,0 +1,92 @@
+/* src/assets/css/AdminHeader.css */
+
+.admin-header {
+  background: linear-gradient(to right, #013263 0%, #00021d 20%);
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  z-index: 111;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header-content h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.admin-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-header-content img {
+  width: 40px;
+}
+
+.admin-header-content-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-header-content-div-div {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.admin-header-content-div-div h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.admin-header-content-div-div p {
+  font-size: 14px;
+  padding: 0;
+}
+
+.menubar-image {
+  width: 25px !important;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .admin-header-content {
+    flex-direction: column !important;
+    gap: 14px;
+  }
+  .admin-header-content h1 {
+    font-size: 18px;
+  }
+  .admin-header-content img {
+    width: 20px;
+  }
+  .admin-header-content h3 {
+    font-size: 13px;
+  }
+  .admin-header-content p {
+    font-size: 10px;
+  }
+  .admin-footer p {
+    font-size: 10px !important;
+    padding: 5px;
+  }
+
+  .admin-aside-menu {
+    height: calc(100vh - 125px) !important;
+    top: 64px !important;
+  }
+
+  .admin-main-content {
+    height: calc(100vh - 150px) !important;
+  }
+}

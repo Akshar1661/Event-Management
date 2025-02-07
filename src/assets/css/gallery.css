@@ -1,0 +1,122 @@
+.gallery-body {
+  background: linear-gradient(to right, #013263 0%, #00021d 20%);
+}
+
+.gallery-heading {
+  color: tomato;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-block: 3%;
+  text-transform: capitalize;
+}
+
+.gallery-sec {
+  margin-block: 100px;
+  width: 96vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  justify-content: space-evenly;
+}
+.gallery-box {
+  width: 47vw;
+  height: calc(45vw * 2 / 4);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.gallery-box-text {
+  background-color: rgba(0, 0, 0, 0.539);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: darkgrey;
+  height: auto;
+  padding: 15px 20px;
+  transition: height 1s ease-in-out; /* Smooth transition with longer duration */
+}
+
+.gallery-box-text h3 {
+  color: tomato;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.gallery-box-text p {
+  color: wheat;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.gallery-box:hover .gallery-box-text {
+  height: 100%;
+}
+
+.gallery-box:nth-child(1) {
+  background-image: url(./../images/gallery/1.image.jpg);
+}
+.gallery-box:nth-child(2) {
+  background-image: url(./../images/gallery/2.image.jpg);
+}
+.gallery-box:nth-child(3) {
+  background-image: url(./../images/gallery/3.image.jpg);
+}
+.gallery-box:nth-child(4) {
+  background-image: url(./../images/gallery/4.image.jpg);
+}
+.gallery-box:nth-child(5) {
+  background-image: url(./../images/gallery/5.image.jpg);
+}
+.gallery-box:nth-child(6) {
+  background-image: url(./../images/gallery/6.image.jpg);
+}
+.gallery-box:nth-child(7) {
+  background-image: url(./../images/gallery/7.image.jpg);
+}
+.gallery-box:nth-child(8) {
+  background-image: url(./../images/gallery/8.image.jpg);
+}
+
+@keyframes expandHeight {
+  from {
+    height: 100px; /* Initial height */
+  }
+  to {
+    height: 100%; /* Full height */
+  }
+}
+
+/* Define keyframes for collapsing */
+@keyframes collapseHeight {
+  from {
+    height: 100%; /* Full height */
+  }
+  to {
+    height: 100px; /* Initial height */
+  }
+}
+
+.gallery-box:hover .gallery-box-text {
+  animation: expandHeight 0.3s forwards ease-in-out; /* Expand animation */
+}
+/* Apply collapse animation when not hovering */
+.gallery-box:not(:hover) .gallery-box-text {
+  animation: collapseHeight 0.3s forwards ease-in-out; /* Collapse animation */
+}
+
+@media screen and (max-width: 700px) {
+  .gallery-box {
+    width: 90vw;
+    height: calc(90vw * 2 / 4);
+  }
+
+  .gallery-box-text {
+    padding: 5px;
+    height: 80px !important;
+  }
+}

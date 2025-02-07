@@ -1,0 +1,293 @@
+.top-box {
+  height: 5px;
+  width: 50px;
+  background: linear-gradient(to right, rgb(255, 174, 0), yellow);
+  border-radius: 5px;
+}
+
+.about-body {
+  background: linear-gradient(to right, #013263 0%, #00021d 20%);
+}
+
+.top-sec-breadcrumb {
+  background-image: url("../images/breadcrumb/0.breadcrumb-bg.jpg");
+  background-size: cover;
+  padding: 5%;
+  text-align: center;
+}
+
+.top-sec-breadcrumb div:first-child {
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 1.4rem;
+}
+
+.top-sec-breadcrumb div:nth-child(2) {
+  color: orange;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.top-sec-breadcrumb span {
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.top-sec-breadcrumb div:last-child {
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.about-desc {
+  width: 90vw;
+  margin: auto;
+  margin-block: 7vh;
+  display: flex;
+  gap: 40px;
+}
+
+.about-desc > div:first-child {
+  color: white;
+}
+
+.about-desc h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.about-desc div {
+  color: #7f9dde;
+}
+
+.about-desc p {
+  color: #7f9dde;
+}
+
+.top-box {
+  margin-bottom: 10px;
+}
+
+.flexbox-container {
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-block: 10vh;
+}
+
+.fb-box {
+  background-color: #7f9dde;
+  width: calc(25% - 20px);
+  padding: 15px;
+  transition: all o.2s ease-in-out;
+  border-radius: 5px;
+  text-align: justify;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.fb-box h4 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.fb-box p {
+  font-size: 13px;
+}
+
+.fb-box:hover {
+  transform: scale(1.05);
+}
+
+.fb-box:hover {
+  background-color: #e6ccbf;
+}
+
+.img-journey-sec {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  gap: 3%;
+  margin-block: 10vh;
+  align-items: center;
+}
+
+.img-image {
+  background: url(./../images/about/company-age-bg.jpg);
+  width: 35vw;
+  height: calc(35vw * 62 / 55);
+  background-size: contain;
+}
+
+.img-image img {
+  width: 80%;
+  height: 80%;
+  margin: 10% 10%;
+}
+
+.img-award {
+  color: white;
+}
+
+.img-award h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.line {
+  width: 2px;
+  height: 400px;
+  background-color: grey;
+}
+.journey-graph {
+  display: flex;
+}
+
+.connect {
+  width: 100px;
+  height: 2px;
+  background-color: gray;
+}
+
+.name {
+  margin: 10px;
+  color: orange;
+  font-weight: 600;
+  width: 100px;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  background-color: orange;
+  border-radius: 15px;
+  position: relative;
+  top: -300%;
+  left: -7%;
+}
+.flexneeded {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 6%;
+}
+.img-award {
+  width: 50vw;
+}
+
+.img-award h2 {
+  margin-bottom: 20px;
+}
+
+.img-award h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.img-award p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #7f9dde;
+}
+
+.topic-data {
+  width: 82%;
+}
+
+@media screen and (max-width: 750px) {
+  .about-desc {
+    flex-direction: column;
+  }
+
+  .fb-box {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .img-journey-sec {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .img-award {
+    width: 90%;
+  }
+
+  .line {
+    height: 400px !important;
+  }
+
+  .topic-data {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1077px) {
+  .line {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-sec-breadcrumb div:first-child {
+    font-size: 10px;
+  }
+
+  .top-sec-breadcrumb div:nth-child(2) {
+    font-size: 20px;
+  }
+  .top-sec-breadcrumb span {
+    font-size: 20px;
+  }
+  .top-sec-breadcrumb div:last-child {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fb-box {
+    width: calc(100% - 20px);
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .line {
+    height: 500px !important ;
+  }
+  .img-image {
+    width: 60vw;
+    height: calc(60vw * 66 / 52);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .flexneeded {
+    flex-direction: column;
+    width: 79vw;
+  }
+
+  .flexneeded h3,
+  p {
+    margin-left: 20px;
+  }
+
+  .line {
+    height: 700px !important;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .line {
+    height: 800px !important;
+  }
+}

@@ -1,0 +1,78 @@
+.contact-body {
+  /* background: linear-gradient(to right, #013263 0%, #00021d 20%); */
+  background-color: red;
+}
+
+.contact-form-body {
+  background-image: url(./../images/blog01.png);
+  width: 100%;
+  background-size: cover;
+  background-color: #00021d;
+  margin-block: 0;
+}
+
+.contact-form img {
+  background-color: darkmagenta;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.contact-form {
+  width: 40%;
+  background-color: white;
+  margin-left: 60%;
+  padding: 20px 30px;
+  text-align: center;
+  padding-block: 10%;
+}
+
+.contact-form h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  width: 80%;
+  margin-block: 10px;
+  padding: 5px;
+}
+
+.contact-form button {
+  width: 80%;
+  margin-block: 25px;
+  padding: 5px;
+  background-color: #013263;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.signup {
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-form {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-form input {
+    width: 90%;
+  }
+  .contact-form {
+    width: 90%;
+    margin: auto;
+  }
+
+  .contact-form-body {
+    margin-block: 0 !important;
+    padding-block: 5vh;
+  }
+}

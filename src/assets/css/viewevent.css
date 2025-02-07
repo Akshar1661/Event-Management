@@ -1,0 +1,94 @@
+/* src/assets/css/viewevent.css */
+
+.view-events {
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.events-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.events-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #013263;
+}
+
+.events-header button {
+  padding: 10px 20px;
+  background-color: #013263;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.events-header button:hover {
+  background-color: #011d3e;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.events-table th,
+.events-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.events-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.events-table td img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.events-table td button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.events-table td button:first-child {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.events-table td button:first-child:hover {
+  background-color: #388e3c;
+}
+
+.events-table td button:last-child {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.events-table td button:last-child:hover {
+  background-color: #d32f2f;
+}
+
+.events-table tr:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(to right, #013263 0%, #00021d 20%);
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.content .main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1.3rem;
+  padding: 0.7rem 0;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: #0046d4;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}

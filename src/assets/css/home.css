@@ -1,0 +1,381 @@
+.image-section {
+  background-image: url(./../images/event/abstract-1846226.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-body {
+  background: linear-gradient(to right, #013263 0%, #00021d 20%);
+}
+
+.image-section-text {
+  width: 50%;
+  padding: 4vh 4vw;
+}
+
+.image-section-text h2 {
+  font-size: 3.7rem;
+  font-weight: 700;
+  background: linear-gradient(to right, rgb(255, 174, 0) 60%, yellow);
+  background-clip: text; /* for Safari */
+  -webkit-text-fill-color: transparent; /* for Safari */
+  color: transparent; /* fallback color */
+  margin-block: 20px;
+}
+
+.image-section-text p {
+  font-size: 18px;
+  color: white;
+  margin-block: 20px;
+}
+
+.image-section-text h4 {
+  font-size: 25px;
+  color: white;
+  margin-block: 20px;
+  font-weight: 600;
+}
+
+.image-section-text input {
+  padding: 20px 15px;
+  background-color: #04153a;
+  color: #fff;
+  width: 70%;
+  border: none;
+}
+
+.image-section-text button {
+  padding: 15px 10px;
+  background-color: #b0590c;
+  color: #fff;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.img-top-sec {
+  font-size: 15px;
+  color: white;
+  margin-block: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.company-section {
+  margin-block: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 15vw;
+}
+
+.text-section {
+  margin-block: 5vh;
+  margin-inline: 5vw;
+  background-color: #013263;
+  padding: 6vw 6vh;
+}
+
+.top-box {
+  height: 5px;
+  width: 50px;
+  background: linear-gradient(to right, rgb(255, 174, 0), yellow);
+  border-radius: 5px;
+}
+
+.flex1 {
+  display: flex;
+  gap: 20px;
+  color: #7f9dde;
+}
+
+.flex1 div {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.w40 {
+  width: 60%;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 40px;
+  align-items: center;
+}
+
+.flex2 h3 {
+  background: linear-gradient(
+    to right,
+    rgb(255, 174, 0),
+    yellow,
+    #e712ff,
+    rgb(13, 184, 241)
+  );
+  background-clip: text; /* for Safari */
+  -webkit-text-fill-color: transparent; /* for Safari */
+  color: transparent; /* fallback color */
+  font-size: 35px;
+  width: 70%;
+  font-weight: 700;
+}
+
+.flex2 p {
+  color: #b0590c;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.flex3 {
+  display: flex;
+  gap: 20px;
+}
+
+.flex3 h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.flex3 p {
+  color: #7f9dde;
+  font-size: 16px;
+}
+
+.desc-section {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  gap: 6%;
+  margin-block: 15vh;
+  align-content: center;
+}
+
+.desc-sec-1 {
+  width: 40%;
+  font-size: 30px;
+  color: #b0590c;
+  font-weight: 600;
+}
+
+.desc-sec-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+.desc-sec-21 {
+  display: flex;
+  gap: 10%;
+}
+
+.desc-sec-21 > div:first-child {
+  width: 35%;
+  color: rgb(255, 255, 255);
+}
+
+.desc-sec-21 h3 {
+  font-weight: 700;
+  font-size: large;
+}
+
+.desc-sec-21 > div:last-child {
+  color: #7f9dde;
+  font-weight: 400;
+}
+
+.get-start {
+  padding-block: 5%;
+}
+
+.get-start-section {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* background-color: #b0590c; */
+  background-image: url(./../images/special-offer-bg.png);
+  background-position: center center;
+  background-size: cover;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-radius: 20px;
+  color: white;
+}
+
+.get-start-section > div:first-child {
+  width: 80%;
+}
+
+.get-start-section > div > div:first-child {
+  font-size: 16px;
+}
+
+.get-start-section > div > div:last-child {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.get-start-section button {
+  background-color: black;
+  color: #7f9dde;
+  width: 20%;
+  height: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.get-start-section button:hover {
+  color: black;
+  background-color: #7f9dde;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1000px) {
+  .desc-sec-21 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-section-text {
+    width: 70%;
+  }
+
+  .get-start-section {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .get-start-section > div:first-child {
+    width: 100%;
+  }
+
+  .get-start-section > div > div:first-child {
+    font-size: 13px;
+  }
+
+  .get-start-section > div > div:last-child {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .get-start-section button {
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .flex3 {
+    flex-direction: column;
+  }
+
+  .flex2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flex2 h3 {
+    width: 95%;
+  }
+
+  .image-section-text {
+    width: 100%;
+  }
+
+  .image-section-text h2 {
+    font-size: 3rem;
+  }
+
+  .image-section-text p {
+    font-size: 15px;
+  }
+  .image-section-text h4 {
+    font-size: 20px;
+  }
+
+  .company-section {
+    padding-inline: 5vw;
+  }
+
+  .desc-sec-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+  .desc-sec-21 {
+    display: flex;
+    gap: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .desc-section {
+    flex-direction: column;
+    margin-bottom: 2vh;
+  }
+  .desc-sec-1 {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .desc-sec-2 {
+    width: 90%;
+    margin: auto;
+    margin-block: 10vh;
+    gap: 20px;
+  }
+
+  .desc-sec-21 > div:first-child {
+    width: 90%;
+  }
+  .desc-sec-21 h3 {
+    width: 90%;
+  }
+
+  .flex1 {
+    flex-direction: column;
+  }
+
+  .w40 {
+    width: 100%;
+  }
+
+  .company-section {
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 20px;
+    justify-content: space-evenly;
+  }
+  .image-section-text input {
+    width: 90%;
+    border: none;
+  }
+
+  .image-section-text button {
+    width: 60%;
+    margin-inline: 16%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .company-section {
+    justify-content: space-evenly;
+  }
+}
